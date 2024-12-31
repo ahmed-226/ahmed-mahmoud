@@ -9,6 +9,11 @@ import GithubIcon from '../assets/github.png'
 import PostgresIcon from '../assets/postgres.png'
 import ExpressIcon from '../assets/express.png'
 import MaterialUIIcon from '../assets/MUI.png'
+import PythonIcon from '../assets/python.png'
+import QtIcon from '../assets/qt.png'
+import RedisIcon from '../assets/redis.png'
+import CppIcon from '../assets/cpp.png'
+import FigmaIcon from '../assets/figma.png'
 
 export const data = [
   {
@@ -65,5 +70,26 @@ export const data = [
     id: 11,
     image: MaterialUIIcon,
     name: 'Material-UI',
+  },{
+    id: 12,
+    image: RedisIcon,
+    name: 'Redis',
   },
+  {
+    id: 13,
+    image: PythonIcon,
+    name: 'Python',
+  },{
+    id: 14,
+    image: QtIcon,
+    name: 'Qt5',
+  },{
+    id: 15,
+    image: CppIcon,
+    name: 'C++',
+  },{
+    id: 16,
+    image: FigmaIcon,
+    name: 'Figma',
+  }
 ];

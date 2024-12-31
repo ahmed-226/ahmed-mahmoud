@@ -7,6 +7,7 @@ import HeartCare from '../assets/Heart-care.jpg'
 import SampleStudio from '../assets/SampleStudio.png'
 import SignalEqualizer from '../assets/SignalEqualizer.png'
 import SignalViewer from '../assets/SignalViewer.png'
+import Hnadilingo from '../assets/Hnadilingo.png'
 
 export const data=[
     {
@@ -43,25 +44,30 @@ export const data=[
         image:Scopedia,
         github:"https://github.com/ahmed-226/Sociopedia",
         live:"https://sociopedia-client-ztmd.onrender.com/",
+    },{
+        id:6,
+        name:"Hnadilingo",
+        image:Hnadilingo,
+        github:"https://github.com/ahmed-226/HandiLingo",
     },
     {
-        id:6,
+        id:7,
         name:"Heart Care",
         image:HeartCare,
         github:"https://github.com/sbme-tutorials/his-finalproject-database_sbe-_spring24_team1",
         live:"",
     },{
-        id:7,
+        id:8,
         name:"Sample Studio App",
         image:SampleStudio,
         github:"https://github.com/HarmoniCode/Sampling-Studio.git"
     },{
-        id:8,
+        id:9,
         name:"Signal Equalizer",
         image:SignalEqualizer,
         github:"https://github.com/HarmoniCode/Signal_Equalizer.git"
     },{
-        id:9,
+        id:10,
         name:"Signal Viewer",
         image:SignalViewer,
         github:"https://github.com/HarmoniCode/Signal-Viewer.git"
