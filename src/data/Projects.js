@@ -4,6 +4,9 @@ import SMS from '../assets/SMS.png'
 import Scopedia from '../assets/Scopedia.png'
 import FChat from '../assets/Chat-Ease.png'
 import HeartCare from '../assets/Heart-care.jpg'
+import SampleStudio from '../assets/SampleStudio.png'
+import SignalEqualizer from '../assets/SignalEqualizer.png'
+import SignalViewer from '../assets/SignalViewer.png'
 
 export const data=[
     {
@@ -47,5 +50,20 @@ export const data=[
         image:HeartCare,
         github:"https://github.com/sbme-tutorials/his-finalproject-database_sbe-_spring24_team1",
         live:"",
+    },{
+        id:7,
+        name:"Sample Studio App",
+        image:SampleStudio,
+        github:"https://github.com/HarmoniCode/Sampling-Studio.git"
+    },{
+        id:8,
+        name:"Signal Equalizer",
+        image:SignalEqualizer,
+        github:"https://github.com/HarmoniCode/Signal_Equalizer.git"
+    },{
+        id:9,
+        name:"Signal Viewer",
+        image:SignalViewer,
+        github:"https://github.com/HarmoniCode/Signal-Viewer.git"
     }
 ]
