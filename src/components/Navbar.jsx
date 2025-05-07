@@ -17,7 +17,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav)
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300  '>
+    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-primary-900/90 text-text-200 z-50 '>
       <div>
         <img src={Logo} alt="logo" className=' w-[100px]' />
       </div>
@@ -29,13 +29,13 @@ const Navbar = () => {
             </Link>
           </li>
           <li className='hover:text-cyan-400 duration-500'>
-            <Link to='skills' smooth={true} duration={800}>
-              Skill
+            <Link to='About' smooth={true} duration={800}>
+              About
             </Link>
           </li>
           <li className='hover:text-cyan-400 duration-500'>
-            <Link to='About' smooth={true} duration={800}>
-              About
+            <Link to='skills' smooth={true} duration={800}>
+              Skill
             </Link>
           </li>
           <li className='hover:text-cyan-400 duration-500'>
@@ -51,12 +51,10 @@ const Navbar = () => {
         </ul>
       </div>
 
-      {/* Hamgurger  */}
       <div onClick={handleClick} className='md:hidden z-10 mr-2'>
         {!nav ? <FaBars size={30} /> : <FaTimes size={30} />}
       </div>
 
-      {/* mobile   */}
 
       <ul className={!nav ? 'hidden' : ' absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center'}>
         <li className='py-6 text-4xl'>
@@ -86,7 +84,6 @@ const Navbar = () => {
         </li>
       </ul>
 
-      {/* soical icons  */}
 
       <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
         <ul>
