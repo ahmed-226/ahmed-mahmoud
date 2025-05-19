@@ -12,7 +12,7 @@ const Home = () => {
       className="w-full h-screen bg-gradient-to-b from-primary-900 to-primary-800"
     >
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center pt-20 md:pt-0">
           <div className="order-2 md:order-1 flex flex-col justify-center">
             <p className="text-accent-500 text-xl font-medium mb-2">
               Hi, my name is
@@ -50,7 +50,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="order-1 md:order-2 flex justify-center relative">
+          <div className="order-1 md:order-2 flex justify-center relative mt-20 mb-8 md:mt-0 md:mb-0">
             <div className="absolute w-80 h-80 sm:w-96 sm:h-96 rounded-full bg-accent-500/10 animate-pulse"></div>
             <div className="absolute w-56 h-56 sm:w-64 sm:h-64 -right-4 bottom-4 rounded-lg border-2 border-secondary-500/30"></div>
             <div className="relative">
@@ -59,7 +59,7 @@ const Home = () => {
                 <img
                   src={ProfileImage}
                   alt="Profile"
-                  className="w-80 h-96 sm:w-96 sm:h-[28rem] object-cover hover:scale-105 transition-all duration-500"
+                  className="w-72 h-80 sm:w-96 sm:h-[28rem] object-cover hover:scale-105 transition-all duration-500"
                 />
               </div>
               <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-accent-500/10 rounded-full border border-accent-500/30 z-[-1]"></div>
