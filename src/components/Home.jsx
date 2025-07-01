@@ -2,8 +2,8 @@ import React from "react";
 import { HiArrowNarrowRight } from "react-icons/hi";
 import { MdOutlineArrowOutward } from "react-icons/md";
 import { Link } from "react-scroll";
-import CV from "../assets/Ahmed_Mahmoud.pdf";
-import ProfileImage from "../assets/profile.jpg";
+import CV from "../assets/Ahmed_Mahmoud_Abdelaal.pdf";
+import ProfileImage from "../assets/profile-removebg-preview.png";
 
 const Home = () => {
   return (
@@ -56,11 +56,12 @@ const Home = () => {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-tr from-accent-500 to-secondary-500 rounded-2xl rotate-6 opacity-20"></div>
               <div className="relative overflow-hidden rounded-2xl border-4 border-text-100/10 shadow-2xl shadow-primary-900/70">
-                <img
-                  src={ProfileImage}
-                  alt="Profile"
-                  className="w-72 h-80 sm:w-96 sm:h-[28rem] object-cover hover:scale-105 transition-all duration-500"
-                />
+                  <img
+                    src={ProfileImage}
+                    alt="Ahmed Mahmoud - Full Stack Developer"
+                    className="w-80 h-96 sm:w-[26rem] sm:h-[32rem] lg:w-[36rem] lg:h-[40rem] object-cover object-center 
+                             hover:scale-110 transition-all duration-700 filter hover:brightness-110 hover:contrast-105"
+                  />
               </div>
               <div className="absolute -bottom-4 -right-4 w-32 h-32 bg-accent-500/10 rounded-full border border-accent-500/30 z-[-1]"></div>
             </div>
