@@ -10,6 +10,10 @@ import Filtra from '../assets/filtra.png'
 import Hnadilingo from '../assets/Hnadilingo.png'
 import redisMonitor from '../assets/redis_monitor.png'
 import SignalViwer from '../assets/Signal_Viewer.png'
+import ACTIVEPLUSE from '../assets/ActivePluse.png'
+import WORKSPHERE from '../assets/WorkSphere.png'
+import JOBTRACKER from '../assets/JobTracker.png'
+import WEATHERDASHBOARD from '../assets/WeatherDashboard.png'
 
 export const data=[
     {
@@ -107,5 +111,33 @@ export const data=[
         github:"https://github.com/HarmoniCode/Signal-Viewer",
         live:"",
         description: "Signal visualization and analysis tool"
+    },{
+        id:11,
+        name:"Active Pluse",
+        image:ACTIVEPLUSE,
+        github:"https://github.com/ahmed-226/Active-Pluse",
+        live:"",
+        description: "A comprehensive fitness tracking application built with React and Vite, featuring workout logging, meal tracking, progress analytics, and goal management"
+    },{
+        id:12,
+        name:"WorkSphere ",
+        image:WORKSPHERE,
+        github:"https://github.com/ahmed-226/WorkSphere",
+        live:"",
+        description: "WorkSphere is a comprehensive dashboard application designed for freelancers to manage their projects, track activities, and monitor earnings."
+    },{
+        id:13,
+        name:"Job Tracker",
+        image:JOBTRACKER,
+        github:"https://github.com/ahmed-226/Job-Tracker",
+        live:"",
+        description: "A full-featured, responsive web application built with React, Vite, Redux Toolkit, and Tailwind CSS that allows users to track their job applications."
+    },{
+        id:14,
+        name:"Weather Dashboard",
+        image:WEATHERDASHBOARD,
+        github:"https://github.com/ahmed-226/Elevvo-internship/tree/main/task_7",
+        live:"",
+        description: "A modern, responsive weather dashboard that provides real-time weather information for any city worldwide. This project demonstrates API integration, geolocation services, and dynamic data visualization with a clean, minimal user interface."
     }
 ]

@@ -4,7 +4,7 @@ import { data } from '../data/Skills'
 const Skills = () => {
   return (
     <div name='skills' className='w-full bg-gradient-to-b from-primary-700 to-primary-800 text-text-100 py-20'>
-      <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
+      <div className='max-w-[1200px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
         <div className='mb-8'>
           <p className='text-4xl font-bold inline border-b-4 border-accent-500'>Skills & Technologies</p>
           <p className='py-4 text-xl text-text-200'>These are the technologies I've worked with</p>

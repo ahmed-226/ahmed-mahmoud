@@ -12,15 +12,20 @@ const About = () => {
                     </div>
                     <div></div>
                 </div>
-                <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
+                <div className='max-w-[1200px] w-full grid sm:grid-cols-2 gap-8 px-4'>
                     <div className='sm:text-right text-4xl font-bold'>
                         <p>Hi. I'm Ahmed Mahmoud, nice to meet you. Please take a look around.</p>
                     </div>
                     <div>
                         <p className='text-text-200 text-2xl mb-5 leading-relaxed'>
-                            I am passionate about developing innovative solutions that enhance the digital experience for users.
-                            I specialize in building web applications and software for a wide range of clients, from startups to established businesses.
-                            Whether it's creating responsive websites or full-stack applications, I'm focused on delivering high-quality software that meets the needs of users.
+                            Passionate Software Engineer with strong expertise in full-stack web development,
+                            desktop applications.
+                            Skilled in various development frameworks from backend API (Node.js, Express,
+                            PostgreSQL, MongoDB) dynamic frontends (React, Material UI).
+                            I approach projects with both technical depth and a systems-thinking mindset
+                            understanding the big picture while delivering efficient, clean code. I thrive in fast-learning
+                            environments, I can work and understand systems end-to-end and learn new skills fast
+                            enough to adapt to almost any project.
                         </p>
                     </div>
                 </div>
