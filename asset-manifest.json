@@ -1,10 +1,12 @@
 {
   "files": {
-    "main.css": "/ahmed-mahmoud/static/css/main.d9e76dcc.css",
-    "main.js": "/ahmed-mahmoud/static/js/main.0fc380f1.js",
+    "main.css": "/ahmed-mahmoud/static/css/main.5c4367c8.css",
+    "main.js": "/ahmed-mahmoud/static/js/main.b5a863e3.js",
     "static/media/WeatherDashboard.png": "/ahmed-mahmoud/static/media/WeatherDashboard.b6218c0d3a08c9f77ff7.png",
+    "static/media/JavaScript_1_certificate.png": "/ahmed-mahmoud/static/media/JavaScript_1_certificate.53a8685495a552122b60.png",
     "static/media/ActivePluse.png": "/ahmed-mahmoud/static/media/ActivePluse.cf96277bfd38c766c3e1.png",
     "static/media/Learnova.png": "/ahmed-mahmoud/static/media/Learnova.2c2fd74d88fed4689bce.png",
+    "static/media/elovvo-certificate.png": "/ahmed-mahmoud/static/media/elovvo-certificate.3e6b7072fdb7ba247e80.png",
     "static/media/TuneSpy.png": "/ahmed-mahmoud/static/media/TuneSpy.579bc5eb448d72d11ae9.png",
     "static/media/SignalEqualizer.png": "/ahmed-mahmoud/static/media/SignalEqualizer.02a17a3cd15dde6b5fca.png",
     "static/media/Supervised_Machine_Learning.jpeg": "/ahmed-mahmoud/static/media/Supervised_Machine_Learning.fcf08a4f73958c126247.jpeg",
@@ -19,6 +21,7 @@
     "static/media/redis_monitor.png": "/ahmed-mahmoud/static/media/redis_monitor.12ca84316d20f66d42ac.png",
     "static/media/redis.png": "/ahmed-mahmoud/static/media/redis.38a9160544de1bd7ad1e.png",
     "static/media/filtra.png": "/ahmed-mahmoud/static/media/filtra.29770612beefdd938fe3.png",
+    "static/media/jenkins.png": "/ahmed-mahmoud/static/media/jenkins.0f663075857ad22118ef.png",
     "static/media/Signal_Viewer.png": "/ahmed-mahmoud/static/media/Signal_Viewer.d64d29e012ea2d92fffa.png",
     "static/media/qt.png": "/ahmed-mahmoud/static/media/qt.67f3b729538dc4574b52.png",
     "static/media/Chat-Ease.png": "/ahmed-mahmoud/static/media/Chat-Ease.4d58a3c8d9bf3ce674f6.png",
@@ -26,28 +29,33 @@
     "static/media/cpp.png": "/ahmed-mahmoud/static/media/cpp.f0dd33c6e90475520fe0.png",
     "static/media/Hnadilingo.png": "/ahmed-mahmoud/static/media/Hnadilingo.babd2a93da76e50573bd.png",
     "static/media/python.png": "/ahmed-mahmoud/static/media/python.c1e1111b13fb92ec2f84.png",
+    "static/media/kubernetes.png": "/ahmed-mahmoud/static/media/kubernetes.456069c00fb724086220.png",
     "static/media/SampleStudio.png": "/ahmed-mahmoud/static/media/SampleStudio.87b89cd212aacbbcd746.png",
     "static/media/postgres.png": "/ahmed-mahmoud/static/media/postgres.f2548564cc008ec40b7b.png",
+    "static/media/ansible.png": "/ahmed-mahmoud/static/media/ansible.475eae65e6a2fa28f418.png",
     "static/media/express.png": "/ahmed-mahmoud/static/media/express.0e4b0a07fe9c9615d674.png",
     "static/media/Building_Real_Time_Video_AI_Applications.png": "/ahmed-mahmoud/static/media/Building_Real_Time_Video_AI_Applications.7cc81985f40495be1595.png",
     "static/media/Getting_Started_with_Deep_Learning.png": "/ahmed-mahmoud/static/media/Getting_Started_with_Deep_Learning.1f7d3e2046598cef8920.png",
     "static/media/MUI.png": "/ahmed-mahmoud/static/media/MUI.e872165747a99ec99d98.png",
     "static/media/figma.png": "/ahmed-mahmoud/static/media/figma.4a688007050589b09af6.png",
     "static/media/react.png": "/ahmed-mahmoud/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/aws.png": "/ahmed-mahmoud/static/media/aws.316da603b6d42393e022.png",
     "static/media/node.png": "/ahmed-mahmoud/static/media/node.952a9ea986dcfa5229ad.png",
     "static/media/mongo.png": "/ahmed-mahmoud/static/media/mongo.2a1528ddc31d4ce8518d.png",
     "static/media/github.png": "/ahmed-mahmoud/static/media/github.3b9e32903aa89111875d.png",
+    "static/media/linux.png": "/ahmed-mahmoud/static/media/linux.ba47606a17ebaaf8576d.png",
     "static/media/Rocket_Acme.jpeg": "/ahmed-mahmoud/static/media/Rocket_Acme.a26bb5c01b42694440a0.jpeg",
     "static/media/html.png": "/ahmed-mahmoud/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/tailwind.png": "/ahmed-mahmoud/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/docker.png": "/ahmed-mahmoud/static/media/docker.c1f953a3ead577c05d04.png",
     "static/media/css.png": "/ahmed-mahmoud/static/media/css.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/ahmed-mahmoud/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/ahmed-mahmoud/index.html",
-    "main.d9e76dcc.css.map": "/ahmed-mahmoud/static/css/main.d9e76dcc.css.map",
-    "main.0fc380f1.js.map": "/ahmed-mahmoud/static/js/main.0fc380f1.js.map"
+    "main.5c4367c8.css.map": "/ahmed-mahmoud/static/css/main.5c4367c8.css.map",
+    "main.b5a863e3.js.map": "/ahmed-mahmoud/static/js/main.b5a863e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9e76dcc.css",
-    "static/js/main.0fc380f1.js"
+    "static/css/main.5c4367c8.css",
+    "static/js/main.b5a863e3.js"
   ]
 }
