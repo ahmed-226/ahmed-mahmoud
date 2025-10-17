@@ -14,6 +14,12 @@ import QtIcon from '../assets/qt.png'
 import RedisIcon from '../assets/redis.png'
 import CppIcon from '../assets/cpp.png'
 import FigmaIcon from '../assets/figma.png'
+import AnsibleIcon from '../assets/ansible.png'
+import LinuxIcon from '../assets/linux.png'
+import DockerIcon from '../assets/docker.png'
+import KubernetesIcon from '../assets/kubernetes.png'
+import JenkinsIcon from '../assets/jenkins.png'
+import AWSIcon from '../assets/aws.png'
 
 export const data = [
   {
@@ -70,7 +76,8 @@ export const data = [
     id: 11,
     image: MaterialUIIcon,
     name: 'Material-UI',
-  },{
+  },
+  {
     id: 12,
     image: RedisIcon,
     name: 'Redis',
@@ -79,17 +86,50 @@ export const data = [
     id: 13,
     image: PythonIcon,
     name: 'Python',
-  },{
+  },
+  {
     id: 14,
     image: QtIcon,
     name: 'Qt5',
-  },{
+  },
+  {
     id: 15,
     image: CppIcon,
     name: 'C++',
-  },{
+  },
+  {
     id: 16,
     image: FigmaIcon,
     name: 'Figma',
+  },
+  {
+    id: 17,
+    image: AnsibleIcon,
+    name: 'Ansible',
+  },
+  {
+    id: 18,
+    image: LinuxIcon,
+    name: 'Linux',
+  },
+  {
+    id: 19,
+    image: DockerIcon,
+    name: 'Docker',
+  },
+  {
+    id: 20,
+    image: KubernetesIcon,
+    name: 'Kubernetes',
+  },
+  {
+    id: 21,
+    image: JenkinsIcon,
+    name: 'Jenkins',
+  },
+  {
+    id: 22,
+    image: AWSIcon,
+    name: 'AWS',
   }
 ];

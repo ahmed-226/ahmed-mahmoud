@@ -5,7 +5,8 @@ import GetStartNvidiaCert from '../assets/Getting_Started_with_Deep_Learning.png
 import BuildingNvidiaCert from '../assets/Building_Real_Time_Video_AI_Applications.png'
 import MachineLCourseraCert from '../assets/Machine_Learning_with_Python.jpeg'
 import SupervisedMachineLearningCert  from '../assets/Supervised_Machine_Learning.jpeg'
-
+import ElevvoCertificate from '../assets/elovvo-certificate.png'
+import JavaScript_1_certificate from "../assets/JavaScript_1_certificate.png"
 
 export const data = [
 {
@@ -76,6 +77,25 @@ export const data = [
     link: "https://www.coursera.org/account/accomplishments/verify/75BKN4NZGWLN",
     description: "Supervised learning techniques and applications",
     image: SupervisedMachineLearningCert,
+    badgeColor: "from-green-500 to-green-600"
+},
+{
+    id: 8,
+    title: "Elevvo Certificate",
+    issuer: "Elevvo",
+    date: "2024",
+    link: "https://drive.google.com/file/d/1W9BPBAqo1zy1hCmgXoSOzaOm8rrbqPaD/view?usp=sharing",
+    description: "Elevvo internship certification in front-end",
+    image: ElevvoCertificate,
+    badgeColor: "from-green-500 to-green-600"
+},{
+    id: 9,
+    title: "JavaScript Essentials 1",
+    issuer: "Cisco Networking Academy",
+    date: "2024",
+    link: "https://www.credly.com/badges/efe4e1dc-a341-47a1-8598-fef57e608f5d/public_url",
+    description: "JavaScript Essentials 1 certification",
+    image: JavaScript_1_certificate,
     badgeColor: "from-green-500 to-green-600"
 }
 ]

@@ -1,14 +1,15 @@
 import React from "react";
 import { HiArrowNarrowRight, HiEye } from "react-icons/hi";
 import { Link } from "react-scroll";
+import { FaWhatsapp, FaEnvelope, FaHackerrank } from "react-icons/fa";
+import { SiCredly } from "react-icons/si";
 import ProfileImage from "../assets/profile-removebg-preview-copy.png";
 
 const Home = () => {
   const handleDownloadCV = () => {
-    // Create a link element and trigger download
     const link = document.createElement('a');
-    link.href = '/Ahmed_Mahmoud_Abdelaal.pdf';
-    link.download = 'Ahmed_Mahmoud_Abdelaal.pdf';
+    link.href = '/ahmed Mahmoud_Resumre.pdf';
+    link.download = 'Ahmed_Mahmoud_Resume.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -29,7 +30,7 @@ const Home = () => {
           {/* Left Content */}
           <div className="space-y-6">
             <div className="space-y-3">
-              <p className="text-accent-500 text-base font-mono">Fullstack Developer</p>
+              <p className="text-accent-500 text-base font-mono">Software Engineer | DevOps | Fullstack</p>
               <div className="space-y-1">
                 <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight">
                   Hello I'm
@@ -40,9 +41,46 @@ const Home = () => {
               </div>
             </div>
             
-            <p className="text-text-200 text-base leading-relaxed max-w-lg font-light">
-              I'm great at building smooth, user-friendly digital experiences and skilled in multiple programming languages and tools.
-            </p>
+            {/* Contact Links */}
+            <div className="flex flex-wrap gap-4 text-text-200">
+              <a 
+                href="https://wa.me/201061008945" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 hover:text-accent-500 transition-colors"
+              >
+                <FaWhatsapp className="w-5 h-5" />
+                <span>+02 01061008945</span>
+              </a>
+              
+              <a 
+                href="mailto:ahmedmahmouad41@gmail.com"
+                className="inline-flex items-center gap-2 hover:text-accent-500 transition-colors"
+              >
+                <FaEnvelope className="w-5 h-5" />
+                <span>ahmedmahmouad41@gmail.com</span>
+              </a>
+              
+              <a 
+                href="https://www.hackerrank.com/profile/ahmedmhmouad41" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 hover:text-accent-500 transition-colors"
+              >
+                <FaHackerrank className="w-5 h-5" />
+                <span>HackerRank</span>
+              </a>
+              
+              <a 
+                href="https://www.credly.com/users/ahmed-mhmouad" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 hover:text-accent-500 transition-colors"
+              >
+                <SiCredly className="w-5 h-5" />
+                <span>Credly</span>
+              </a>
+            </div>
             
             {/* Buttons */}
             <div className="flex flex-wrap gap-4 relative z-20">

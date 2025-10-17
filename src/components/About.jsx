@@ -17,15 +17,20 @@ const About = () => {
                         <p>Hi. I'm Ahmed Mahmoud, nice to meet you. Please take a look around.</p>
                     </div>
                     <div>
-                        <p className='text-text-200 text-2xl mb-5 leading-relaxed'>
-                            Passionate Software Engineer with strong expertise in full-stack web development,
-                            desktop applications.
-                            Skilled in various development frameworks from backend API (Node.js, Express,
-                            PostgreSQL, MongoDB) dynamic frontends (React, Material UI).
-                            I approach projects with both technical depth and a systems-thinking mindset
-                            understanding the big picture while delivering efficient, clean code. I thrive in fast-learning
-                            environments, I can work and understand systems end-to-end and learn new skills fast
-                            enough to adapt to almost any project.
+                        <p className='text-text-200 text-xl leading-relaxed'>
+                            I'm a passionate Software Engineer specializing in both full-stack development and DevOps practices. 
+                            With expertise spanning from frontend technologies like React and JavaScript to backend systems using 
+                            Node.js, Express, PostgreSQL, and MongoDB, I build complete, scalable applications from the ground up. 
+                            My experience extends to desktop applications, computer vision, and Python development, giving me a 
+                            versatile toolkit for solving diverse technical challenges.
+                        </p>
+                        <p className='text-text-200 text-xl mt-5 leading-relaxed'>
+                            What sets me apart is my strong DevOps foundation I don't just write code, I ensure it runs reliably 
+                            at scale. I leverage AWS, Docker, Kubernetes, and CI/CD pipelines to automate deployments and maintain 
+                            robust infrastructure. This dual expertise allows me to think holistically about software: from crafting 
+                            clean, efficient code to architecting the systems that keep it running smoothly in production. Currently 
+                            pursuing a degree in System and Biomedical Engineering while continuously building innovative solutions 
+                            that bridge development and operations.
                         </p>
                     </div>
                 </div>

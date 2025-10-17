@@ -22,7 +22,11 @@ const Skills = () => {
                     <img 
                       className='w-10 h-10 object-contain filter group-hover:brightness-110 transition-all duration-300' 
                       src={skill.image} 
-                      alt={`${skill.name} icon`} 
+                      alt={`${skill.name} icon`}
+                      onError={(e) => {
+                        e.target.style.display = 'none';
+                        console.error(`Failed to load image for ${skill.name}`);
+                      }}
                     />
                   </div>
                   <p className='text-sm font-medium text-text-200 group-hover:text-text-100 transition-colors duration-300'>

@@ -12,7 +12,6 @@ const Certifications = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
 
-  // Auto-slide functionality
   useEffect(() => {
     if (isAutoPlaying) {
       const interval = setInterval(() => {
