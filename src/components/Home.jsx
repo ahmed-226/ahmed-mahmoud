@@ -44,13 +44,13 @@ const Home = () => {
             {/* Contact Links */}
             <div className="flex flex-wrap gap-4 text-text-200">
               <a 
-                href="https://wa.me/201061008945" 
+                href="https://wa.me/201061008946" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2 hover:text-accent-500 transition-colors"
               >
                 <FaWhatsapp className="w-5 h-5" />
-                <span>+02 01061008945</span>
+                <span>+02 01061008946</span>
               </a>
               
               <a 
