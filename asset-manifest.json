@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/ahmed-mahmoud/static/css/main.5c4367c8.css",
-    "main.js": "/ahmed-mahmoud/static/js/main.b5a863e3.js",
+    "main.js": "/ahmed-mahmoud/static/js/main.a14ce3c6.js",
     "static/media/WeatherDashboard.png": "/ahmed-mahmoud/static/media/WeatherDashboard.b6218c0d3a08c9f77ff7.png",
+    "static/media/aws-terraform.png": "/ahmed-mahmoud/static/media/aws-terraform.b858d2539f38ebdd3f7a.png",
     "static/media/JavaScript_1_certificate.png": "/ahmed-mahmoud/static/media/JavaScript_1_certificate.53a8685495a552122b60.png",
     "static/media/ActivePluse.png": "/ahmed-mahmoud/static/media/ActivePluse.cf96277bfd38c766c3e1.png",
     "static/media/Learnova.png": "/ahmed-mahmoud/static/media/Learnova.2c2fd74d88fed4689bce.png",
@@ -49,13 +50,14 @@
     "static/media/tailwind.png": "/ahmed-mahmoud/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/docker.png": "/ahmed-mahmoud/static/media/docker.c1f953a3ead577c05d04.png",
     "static/media/css.png": "/ahmed-mahmoud/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/terraform.png": "/ahmed-mahmoud/static/media/terraform.925187d179a2327fe7ef.png",
     "static/media/javascript.png": "/ahmed-mahmoud/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/ahmed-mahmoud/index.html",
     "main.5c4367c8.css.map": "/ahmed-mahmoud/static/css/main.5c4367c8.css.map",
-    "main.b5a863e3.js.map": "/ahmed-mahmoud/static/js/main.b5a863e3.js.map"
+    "main.a14ce3c6.js.map": "/ahmed-mahmoud/static/js/main.a14ce3c6.js.map"
   },
   "entrypoints": [
     "static/css/main.5c4367c8.css",
-    "static/js/main.b5a863e3.js"
+    "static/js/main.a14ce3c6.js"
   ]
 }
